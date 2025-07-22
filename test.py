@@ -16,7 +16,7 @@ def predict_personality(input_data):
         # Convert input to DataFrame
         input_df = pd.DataFrame([input_data])
         
-        # Ensure columns match training data (adjust as needed)
+      
         expected_columns = [
             'social_energy', 'alone_time_preference', 'talkativeness', 
             'deep_reflection', 'group_comfort', 'party_liking', 
